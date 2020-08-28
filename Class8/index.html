@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+  </head>
+  <body>
+    <h1>Time Table</h1>
+
+    <table border="10" cellpadding="10" cellspacing="5" bgcolor="yellow">
+      <caption>
+        Coding Block's time table
+      </caption>
+      <!-- table header -->
+      <thead align="center" bgcolor="green">
+        <!-- table row -->
+        <tr>
+          <th colspan="8">My School Time Table</th>
+        </tr>
+      </thead>
+      <!-- table body -->
+      <tbody align="center" bgcolor="orange">
+        <tr bgcolor="red">
+          <!-- table data -->
+          <td></td>
+          <th scope="col">Monday</th>
+          <th scope="col">Tuesday</th>
+          <th scope="col">Wednesday</th>
+          <th scope="col">Thursday</th>
+          <th scope="col">Friday</th>
+          <th scope="col">Saturday</th>
+          <th scope="col">Sunday</th>
+        </tr>
+
+        <tr>
+          <th scope="row" bgcolor="blue">9 AM</th>
+          <td colspan="2">English</td>
+
+          <td>Hindi</td>
+          <td rowsan="2">Science</td>
+          <td rowspan="2">SSt</td>
+          <td></td>
+          <td rowspan="5">Holiday</td>
+        </tr>
+
+        <tr>
+          <th scope="row">10 AM</th>
+          <td>English</td>
+          <td></td>
+          <td colspan="2">Hindi</td>
+
+          <td rowspan="3">Science</td>
+        </tr>
+        <tr>
+          <th scope="row">11 AM</th>
+          <td>English</td>
+          <td colspan="2">Hindi</td>
+          <td>SSt</td>
+
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">12 Noon</th>
+          <td>SSt</td>
+          <td>Science</td>
+          <td>Hindi</td>
+          <td>English</td>
+
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">1 PM</th>
+          <td colspan="6">Break</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="8">This is my time table for Coding Blocks classes</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

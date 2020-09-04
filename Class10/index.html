@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Application Form</h1>
+
+    <form action="" method="">
+      <!-- This is a form -->
+
+      <fieldset>
+        <legend>Personal Details</legend>
+        <label for="username">Name </label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Enter Your Name here"
+        />
+        <br />
+        <br />
+        <label for="emaild">Email </label>
+        <input
+          type="email"
+          name="emailid"
+          id="emailid"
+          placeholder="xyz@gmail.com"
+          required
+        />
+        <br />
+        <br />
+        <label for="password">Password </label>
+        <input type="password" name="password" id="password" required />
+        <br />
+        <br />
+        <label for="phone">Phone Number </label>
+        <input type="tel" name="phone" id="phone" required />
+        <br />
+        <br />
+        <label for="dob">Date of Birth </label>
+        <input type="date" name="dob" id="dob" required />
+        <br />
+        <br />
+        <label for="gender">Gender</label>
+        <br />
+        <input type="radio" name="gender" />Male
+        <br />
+        <input type="radio" name="gender" />Female
+        <br />
+        <input type="radio" name="gender" />Others
+      </fieldset>
+      <br />
+      <br />
+      <fieldset>
+        <legend>Eduction Details</legend>
+        <label for="school">School Name </label>
+        <input type="text" name="school" id="school" />
+        <br />
+        <br />
+        <label for="standard">Standard/Class </label>
+        <input type="number" name="standard" id="standard" />
+        <br />
+        <br />
+        <label for="slc">School Leaving Certificate </label>
+        <input type="file" name="slc" id="slc" />
+        <br />
+        <br />
+        <label for="marksheet">Mark Sheet </label>
+        <input type="file" name="marksheet" id="marksheet" />
+        <br />
+        <br />
+        <label for="stream">Choose your stream</label>
+        <select name="stream" id="stream">
+          <option value="Medical">Medical</option>
+          <option value="Non-Medical">Non-Medical</option>
+          <option value="Humanities">Humanities</option>
+        </select>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Interests</legend>
+        <label for="favColor">Choose your favourite color</label>
+        <input type="color" />
+      </fieldset>
+      <br />
+      <br />
+
+      <input type="submit" value="Submit Form" />
+    </form>
+  </body>
+</html>

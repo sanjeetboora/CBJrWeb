@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms2</title>
+  </head>
+  <body>
+    <h1>Student Details form</h1>
+
+    <form>
+      <fieldset>
+        <legend>Student's Interests</legend>
+
+        <label for="colors">Select your fav color (autocomplete)</label>
+        <input type="text" list="list1" />
+        <datalist id="list1">
+          <option>Red</option>
+          <option>Green</option>
+          <option>Yellow</option>
+          <option>Grey</option>
+        </datalist>
+
+        <label for="fruits">Select your favourite fruit</label>
+        <select name="fruits" id="fruits" multiple size="7">
+          <optgroup label="group1">
+            <option value="apple">Apple</option>
+            <option value="orange">Orange</option>
+            <option value="mango">Mango</option>
+          </optgroup>
+          <optgroup label="group2">
+            <option value="Banana">Banana</option>
+            <option value="grapes">Grapes</option>
+            <option value="kiwi" disabled>Kiwi</option>
+          </optgroup>
+        </select>
+
+        <br />
+        <br />
+
+        <label for="username">Enter your name</label>
+        <input type="text" id="username" minlength="5" maxlength="10" />
+        <br />
+        <label for="pass">Enter your password</label>
+        <input
+          type="password"
+          name="pass"
+          id="pass"
+          pattern="[Cc]oding[Bb]locks|captain|sky"
+        />
+
+        <br />
+
+        <label for="phone">Enter your phone number</label>
+        <input type="tel" name="phone" id="phone" pattern="[1-9]{1}[0-9]{9}" />
+        <br />
+        <label for="fuel">fuel meter</label>
+        <meter
+          name="fuel"
+          id="fuel"
+          min="0"
+          max="100"
+          value="51"
+          low="30"
+          high="60"
+          optimum="80"
+        ></meter>
+        <br />
+        <label for="prog">Progress bar</label>
+        <progress id="prog" name="prog" max="100" value="70"></progress>
+        <br />
+
+        <label for="user">Name</label>
+        <input type="text" name="user" id="user" pattern="[a-z]{10}" />
+        <br />
+        <label for="box">Textbox</label>
+        <textarea
+          name="box"
+          id="box"
+          cols="30"
+          rows="10"
+          placeholder="Enter your paragraph"
+        ></textarea>
+        <br />
+        <label for="checkBox">check box</label>
+        <input type="checkbox" id="checkBox" />
+        <br />
+        <input type="submit" value="submit" />
+
+        <br />
+        <br />
+      </fieldset>
+    </form>
+  </body>
+</html>

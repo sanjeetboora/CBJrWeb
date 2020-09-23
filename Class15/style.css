@@ -1,0 +1,50 @@
+body {
+  background-color: azure;
+  /* background-image: url(https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2020%2F01%2Fhot-toys-avengers-endgame-iron-man-mark-lxxxc-life-size-collectible-0002.jpg?q=75&w=800&cbr=1&fit=max); */
+  background-image: url(https://media.tenor.com/images/07d47d2e25745e0ad28c14cb0c25abb0/tenor.gif);
+
+  /* background-repeat: repeat; */
+  /* background-repeat: no-repeat; */
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  /* background-position: center; */
+  /* background-position: top; */
+  /* background-position: bottom; */
+  /* background-position: top right; */
+  /* background-position: bottom right; */
+  /* background-position: bottom left; */
+  /* background-position: center left; */
+  background-size: contain;
+  /* background-size: 50%; */
+}
+
+h1 {
+  background-image: url(https://previews.123rf.com/images/kvitkanastroyu/kvitkanastroyu1904/kvitkanastroyu190400152/121819974-white-fluffy-clouds-on-a-blue-pink-gradient-sky-background-16-9-panoramic-format-pink-pastel-toned.jpg);
+  background-color: burlywood;
+  /* margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: 40px;
+  margin-right: 40px; */
+  margin: 20px;
+
+  /* padding-left: 20px;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-bottom: 40px; */
+  padding: 40px;
+  text-align: center;
+}
+h2 {
+  background-color: darkgoldenrod;
+  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm21-smoke-bb-5_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c8347a73d6427dda5d03bd1100c39354);
+}
+
+div.one {
+  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm21-smoke-bb-5_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c8347a73d6427dda5d03bd1100c39354);
+}
+div.two {
+  background-image: url(https://previews.123rf.com/images/kvitkanastroyu/kvitkanastroyu1904/kvitkanastroyu190400152/121819974-white-fluffy-clouds-on-a-blue-pink-gradient-sky-background-16-9-panoramic-format-pink-pastel-toned.jpg);
+}

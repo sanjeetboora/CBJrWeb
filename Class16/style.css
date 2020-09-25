@@ -1,0 +1,101 @@
+h1 {
+  text-align: center;
+  border-top-style: dashed;
+
+  border-bottom-style: double;
+  border-right-style: solid;
+  border-left-style: dotted;
+
+  border-top-color: green;
+  border-bottom-color: blue;
+  border-left-color: orange;
+  border-right-color: orangered;
+
+  border-top-width: 20px;
+  border-bottom-width: 10px;
+  border-left-width: 30px;
+  border-right-width: 40px;
+}
+
+div.heading {
+  text-align: center;
+  border-width: 10px;
+  border-color: blueviolet;
+  border-style: solid;
+}
+
+.about h2 {
+  text-align: center;
+}
+
+.about {
+  border-width: 20px;
+  border-color: coral;
+  border-style: dashed;
+}
+
+h2 {
+  text-align: center;
+}
+
+.education {
+  border-width: 10px;
+  border-color: cornflowerblue;
+  border-style: dotted;
+}
+.family {
+  border-width: 20px;
+  border-color: darkgoldenrod;
+  border-style: double;
+}
+
+.objects {
+  height: 100px;
+  width: 100px;
+  border-width: 20px;
+  border-style: dashed;
+  border-color: palevioletred;
+}
+
+.objects1 {
+  text-align: center;
+  margin-top: 20px;
+  height: 200px;
+  width: 200px;
+  border-width: 20px;
+  border-style: solid;
+  /* background-color: peru; */
+  border-color: palevioletred;
+  border-radius: 50%;
+}
+
+.objects2 {
+  background: purple;
+  margin-top: 20px;
+  height: 200px;
+  width: 200px;
+  border-width: 100px;
+  border-style: dotted;
+  border-color: palevioletred;
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 40%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 60%;
+}
+
+.objects3 {
+  background: brown;
+  margin-top: 20px;
+  height: 200px;
+  width: 200px;
+  border-width: 10px;
+  border-style: dotted;
+  border-color: palevioletred;
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 90%;
+  border-top-right-radius: 90%;
+  border-bottom-right-radius: 20%;
+
+  box-shadow: 50px 20px 20px 50px darkblue;
+  /*   box-shadow: horizontal vertical blur-radius spread-distance darkblue;*/
+}

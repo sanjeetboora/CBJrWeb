@@ -1,0 +1,63 @@
+/* element-selector:pseudo-className{
+
+} */
+
+h1:hover {
+  color: blueviolet;
+  background-color: yellowgreen;
+}
+a:link {
+  color: lightcoral;
+}
+a:visited {
+  color: lightseagreen;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+a:hover {
+  color: darkblue;
+}
+a:active {
+  color: darkorange;
+}
+
+input#standard:focus {
+  background-color: greenyellow;
+  color: blueviolet;
+  border: darkgreen;
+  border-width: 3px;
+  border-style: double;
+}
+
+div.edu-standard:focus-within {
+  background-color: darkorange;
+  color: blue;
+}
+
+input:checked + label {
+  color: palevioletred;
+}
+input[type="radio"]:checked {
+  box-shadow: 0 0 0 3px red;
+}
+input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 3px red;
+}
+option:checked {
+  box-shadow: 0 0 3px purple;
+  color: yellowgreen;
+}
+
+button {
+  height: 50px;
+  width: 50px;
+  border-radius: 10%;
+  border-color: teal;
+  border-style: solid;
+  border-width: 2px;
+  background-color: yellowgreen;
+  color: red;
+}
+button:active {
+  background-color: yellow;
+  color: black;
+}

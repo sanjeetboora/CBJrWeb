@@ -1,0 +1,14 @@
+1) Google font heading link:
+         https://fonts.google.com/specimen/Grenze+Gotisch?sidebar.open=true&selection.family=Grenze+Gotisch:wght@600
+
+2)Heading Background Color: #EA7773
+
+3)Spider man heading color:#EA425C
+
+4)Captain america heading color:#487EB0
+
+5)Iron man heading color:#EEC213
+
+6)Ironman heading Background-color:#487EB0
+
+       

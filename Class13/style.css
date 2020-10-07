@@ -1,0 +1,58 @@
+body {
+  background-color: ghostwhite;
+}
+h1 {
+  color: white;
+  background-color: darkslateblue;
+  text-align: center;
+}
+
+.web {
+  color: orange;
+  text-align: left;
+  text-decoration: underline;
+  font-family: "Lobster", cursive;
+}
+
+.robo {
+  color: green;
+  text-align: right;
+  text-decoration: overline;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.section-web p {
+  text-align: right;
+}
+
+a.linkToCB {
+  text-decoration: none;
+}
+
+p.rightToLeft {
+  direction: rtl; /* rtl -> right to left */
+  unicode-bidi: bidi-override;
+  text-align: left;
+}
+
+.section-robo p.p1 {
+  text-align: justify;
+  text-decoration: line-through;
+  line-height: 0.6;
+}
+
+.section-robo p.p2 {
+  text-decoration: none;
+  text-indent: 50px;
+  line-height: 2;
+}
+.section-robo p.p3 {
+  letter-spacing: 3px;
+  word-spacing: -2px;
+  font-family: "Poppins", sans-serif;
+}
+.section-robo p.p4 {
+  letter-spacing: -1px;
+  word-spacing: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}

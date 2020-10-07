@@ -1,0 +1,75 @@
+h1.name {
+  font-size: 50px;
+  text-shadow: 15px 10px 5px gold;
+  /* text-shadow: horizontal-shadow vertical-shadow blur-radius shadow-color*/
+}
+h1.lastname {
+  text-align: center;
+  font-size: 50px;
+  /* text-shadow: -15px -10px 5px red; */
+  /* text-shadow: horizontal-shadow vertical-shadow blur-radius shadow-color*/
+  text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85,
+    -20px -20px 40px #ffae34, 20px -30px 35px #ec760c, -20px -40px 40px #cd4606,
+    0 -50px 65px #973716, 10px -70px 70px #451b0e;
+}
+
+h1.fullname {
+  text-align: center;
+  font-size: 50px;
+  text-shadow: -10px 10px 5px goldenrod, 4px 4px 4px green,
+    -3px 2px 2px palevioletred;
+}
+
+.name {
+  text-align: center;
+}
+.about-section h2 {
+  color: goldenrod;
+}
+.about-section .p1 {
+  /* font-size: xx-small; */
+  /* font-size: xxx-large; */
+  font-size: 14px;
+}
+.about-section .p2 {
+  font-size: x-small;
+}
+.about-section .p3 {
+  font-size: small;
+}
+.about-section .p4 {
+  font-size: medium;
+}
+.about-section .p5 {
+  font-size: large;
+}
+.about-section .p6 {
+  font-size: x-large;
+}
+.skills-section p {
+  background-color: greenyellow;
+}
+
+.skills-section p span.highlight {
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+.skills-section li.l1 {
+  font-weight: bold;
+}
+.skills-section li.l2 {
+  font-weight: 100;
+}
+.skills-section li.l3 {
+  font-weight: 900;
+}
+.skills-section li.l4 {
+  font-weight: normal;
+}
+
+.skills-section ul {
+  text-transform: uppercase;
+  /* text-transform: capitalize; */
+  /* text-transform: lowercase; */
+}

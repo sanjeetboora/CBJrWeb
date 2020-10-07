@@ -1,0 +1,70 @@
+div.about p:first-child {
+  color: tomato;
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+div.about p:last-child {
+  color: yellowgreen;
+  font-weight: 500;
+}
+
+div.about p:first-of-type {
+  color: palevioletred;
+  font-weight: 900;
+  backgrouqnd-color: yellow;
+}
+
+div.about div:last-of-type {
+  color: blue;
+  font-weight: 900;
+  background-color: aliceblue;
+}
+
+div.about em:only-of-type {
+  color: purple;
+}
+
+div.form-field input:invalid {
+  background-color: lightcoral;
+  border: red;
+  border-radius: 5px;
+  border-width: 25px;
+}
+
+div.form-field input:valid {
+  background-color: lightgreen;
+}
+
+div.form-field1 input:out-of-range {
+  background-color: cornflowerblue;
+}
+div.form-field1 input:in-range {
+  background-color: yellowgreen;
+}
+
+input:in-range + label::after {
+  content: 'correct guess';
+}
+
+input:in-range + label::before {
+  content: 'Yay! ';
+}
+
+input:out-of-range + label::after {
+  content: 'wrong guess';
+}
+
+input:out-of-range + label::before {
+  content: 'ufff...';
+}
+
+div.form-field2 #name:placeholder-shown {
+  border: yellow;
+  color: gold;
+  border-width: 15px;
+  border-style: solid;
+  font-size: 50px;
+  text-overflow: ellipsis;
+  font-family: cursive;
+}

@@ -1,0 +1,88 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.profile {
+  text-align: center;
+}
+.header {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSQWGYXGjqRy5RXNJsWiAWzowvdGyKME5iGcg&usqp=CAU);
+  height: 300px;
+  text-align: center;
+}
+.name {
+  /* position: static; */
+  position: relative;
+  top: 100px;
+  color: white;
+  font-size: 80px;
+  font-family: cursive;
+  /* background-color: yellow; */
+}
+.about {
+  background-color: maroon;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+.about .heading {
+  text-align: center;
+  font-size: 40px;
+  background-color: yellowgreen;
+  font-weight: 900;
+  position: sticky;
+  top: 55px;
+  z-index: 1;
+}
+.about .description {
+  color: aliceblue;
+  font-size: 25px;
+  position: relative;
+  /* position: absolute; */
+  top: 10px;
+  left: 30px;
+}
+.projects {
+  background-color: peru;
+}
+.projects .heading {
+  position: sticky;
+  top: 100px;
+  bottom: 100px;
+  z-index: 1;
+  text-align: center;
+  font-size: 40px;
+  background-color: lightcoral;
+  font-weight: 900;
+}
+.projects .description {
+  color: white;
+  font-size: 25px;
+  position: relative;
+  /* position: absolute; */
+  top: 10px;
+  left: 30px;
+}
+
+.contact button {
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  color: red;
+  font-size: 50px;
+  border-color: transparent;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 3;
+}
+
+.nav {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  color: white;
+  background-color: black;
+  font-size: 50px;
+  text-align: center;
+  z-index: 2;
+}

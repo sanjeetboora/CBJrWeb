@@ -1,0 +1,16 @@
+
+You need to create a Form Type website using tags Input and css attributes such as hover and focus and everything else which you learned during the lecture 17.
+
+Include all necessary details according to your imagination which you would include in the form.
+
+You need to design an Admission Form which you fill online .
+
+In Short Make a copy of Google Forms and on hovering buttons or inputs change the color of input buttons and boxes.
+
+On hovering the submit box its color should change to green and on submitting the page should get redirected to another web page like assignment_part_b.
+
+
+On clicking submit another form it should get redirected back to web page assignment15. 
+
+
+Check the screenshot of the sample webpage.

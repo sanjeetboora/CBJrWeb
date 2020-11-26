@@ -1,0 +1,32 @@
+In this assignment you will be practising css animations.
+
+Instructions for assignment:
+
+Make an animated poster of topic of your choice.
+Make sure to include all css animations that you
+have learned during the class.
+
+Given sample is just an idea and may not contain 
+all the animations or transitions.
+
+You are supposed to make it lively animated
+and colorful and make sure to use all the transforms.
+
+This Sample is just for reference.
+
+
+
+https://1.bp.blogspot.com/-xU8tXyNpgJ4/XY1TuLAT7gI/AAAAAAAAAE8/_sV8e-waFW4uZCJKqpo_ggFFpNUTwi5gACLcBGAsYHQ/s1600/Save-water-save-life.jpg
+
+
+https://crossbarriers.org/wp-content/uploads/2018/04/Untitled2-1280x720.jpg
+
+
+
+
+https://www.icnnational.com/wp-content/uploads/2018/12/save-water-save-planet-1-638.jpg
+
+
+
+
+https://madhavuniversity.edu.in/images/save-water.jpg

@@ -1,0 +1,15 @@
+In this assignment you will be practising css animations and transitions.
+
+Instructions for assignment 19:
+
+Make animated cards of cats.
+Make sure to include all css animations that you
+have learned during the class.
+
+Given sample is just an idea and may not contain 
+all the animations or transitions.
+
+You are supposed to make it lively animated
+and colorful and make sure to use all the transforms.
+
+This Sample is just for reference.

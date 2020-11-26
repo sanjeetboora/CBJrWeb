@@ -1,0 +1,11 @@
+
+You need to create a Form Type website using tags Input and css attributes such as hover and focus and everything else which 
+you learned during the class.
+
+Include all necessary details according to your imagination which you would include in the form.
+
+You need to design an Admission Form which you fill online .
+
+In Short Make a copy of Google Forms.
+
+Check the code and screenshot of the sample webpage.

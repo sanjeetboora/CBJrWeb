@@ -1,0 +1,23 @@
+
+.h{
+    text-align: center;
+    border-width: 50px;
+    border-color: aquamarine;
+    border-style: groove;
+    text-shadow: brown;
+    
+    background-repeat: no-repeat;
+    background-size: 1500px 1500px;
+    background-color: yellowgreen;
+}
+.h img{
+    border-width: 20px;
+    border-color: red;
+    border-style: dashed;
+    border-radius: 12%;
+}
+.h p{
+    border-width: 10px;
+    border-style: double;
+    border-color: green;
+}

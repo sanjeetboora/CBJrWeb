@@ -1,0 +1,77 @@
+div.abc{
+    border: 40;
+    border-style: groove;
+    border-width: 40px;
+    text-align:center;
+    font-size:20px;
+}
+div.about span {
+    color: tomato;
+    font-family: cursive;
+    font-weight: bolder;
+  }
+  
+  div.about p:last-child {
+    color: red;
+    font-weight: 500;
+  }
+  
+  div.about p:first-of-type {
+    color: red;
+    font-weight: 900;
+    background-color: lime;
+  }
+  
+  div.about div:last-of-type {
+    color: green;
+    font-weight: 900;
+    background-color: aliceblue;
+  }
+  
+  div.about em:only-of-type {
+    color: purple;
+  }
+  
+  div.form-field input:invalid {
+    background-color: red;
+    border: red;
+    border-radius: 5px;
+    border-width: 25px;
+  }
+  
+  div.form-field input:valid {
+    background-color: lightgreen;
+  }
+  
+  div.form-field1 input:out-of-range {
+    background-color: cornflowerblue;
+  }
+  div.form-field1 input:in-range {
+    background-color: yellowgreen;
+  }
+  
+  input:in-range + label::after {
+    content: 'correct guess';
+  }
+  
+  input:in-range + label::before {
+    content: 'Yay! ';
+  }
+  
+  input:out-of-range + label::after {
+    content: 'wrong guess ... You will be punished';
+  }
+  
+  input:out-of-range + label::before {
+    content: 'Isssssh...';
+  }
+  
+  div.form-field2 #name:placeholder-shown {
+    border: yellow;
+    color: gold;
+    border-width: 15px;
+    border-style: solid;
+    font-size: 50px;
+    text-overflow: ellipsis;
+    font-family: cursive;
+  }

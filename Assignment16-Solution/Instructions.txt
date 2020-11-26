@@ -1,0 +1,11 @@
+
+
+				Assignment 16
+
+
+
+You need to create a webpage describing your favourite cartoon character using the CSS tags learnt in class 18 as shown in assignment16.pdf
+
+Include all necessary details.
+
+Try to create something creative because given sample is just an idea and You can add some more features to it by yourself

@@ -1,0 +1,97 @@
+body{
+    text-align: center;
+    margin: 0px;
+   
+}
+
+.abcd{
+    color: white;
+    background-color: black;
+    font-size: 35px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    
+
+
+}
+.header{
+    background-image: url(https://dogtime.com/assets/uploads/gallery/labrador-retriever-dog-breed-pictures/labrador-retriever-dog-pictures-3.jpg);
+    height: 300px;
+}
+
+.wikipage{
+    font-size: 70px;
+    position: relative;
+    top: 100px;
+    font-family: cursive;
+    color: red;
+
+    
+}
+
+
+.about{
+    background-color: maroon;
+    padding-right: 40px;
+
+}
+
+.about .heading{
+    font-size: 40px;
+    background-color: blue;
+    font-weight: 900;
+    position: sticky;
+    top: 40px;
+    z-index: 1;
+
+
+}
+.about .descrption{
+    color: lime;
+    font-size: 25px;
+}
+
+.one{
+    background-color: peru;
+}
+
+.one .heading{
+    font-size: 40px;
+    background-color: lightcoral;
+    font-weight: 900;
+    position: sticky;
+    top: 40px;
+    z-index: 1;
+
+}
+
+.one .descrption{
+    color:pink;
+    font-size: 25px;
+
+}
+
+.two button{
+    font-size: 50px;
+    background-color: transparent;
+    border-color: transparent;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    z-index: 3;
+
+}
+.three button{
+    height: 40px;
+    width: 130px;
+    background-color: peru;
+    font-size: 30px;
+    position: fixed;
+    bottom: 40px;
+    right: 150px;
+    border-color: black;
+}
+
+

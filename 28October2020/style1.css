@@ -1,0 +1,51 @@
+.bigger{
+    background-color: yellow;
+    padding: 10px;
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+}
+
+.smaller{
+    background-color: green;
+    width:33%;
+    color: white;
+    display: flex;
+}
+/*phone*/
+/* max-width: 475px means width <= 475 */
+@media only screen and (max-width: 475px){
+    .smaller{
+        background-color: red;
+        width:100%;
+        font-size: 20px;
+        display: block;
+        display:none;
+    }
+    .bigger{
+        display: block;
+    }
+}
+
+/* laptop or wider screens */
+/* screen with width >= 992px */
+@media only screen and (min-width: 992px){
+    .smaller{
+        background-color: blue;
+        display:flex;
+        font-size: 50px;
+        width: 33%;
+        text-align:center;
+    }
+    .bigger{
+        background-color: yellowgreen;
+        display: flex;
+        text-align:center;
+    }
+}
+
+@media only screen and (orientation:landscape){
+    body{
+        background-color: magenta;
+    }
+}

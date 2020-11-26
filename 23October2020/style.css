@@ -1,0 +1,82 @@
+.parent{
+    width:300px;
+    height:300px;
+    border:black;
+    border-width:1px;
+    border-style:solid;
+}
+
+.box{
+    height:100px;
+    width:100px;
+    background-color: red;
+    font-size:30px;
+    left:0px;
+    top:0px;
+    position:absolute;
+    transition-property: width height background-color font-size top left;
+    transition-duration: 900ms;
+    transition-timing-function: ease-in-out;
+}
+
+.parent:hover .box{
+    /* transform: rotate(270deg); */
+    transform: rotate(2.5turn);
+    width: 50px;
+    height: 70px;
+    background-color: rgb(84, 194, 84);
+    color: yellow;
+    font-size: 20px;
+    left: 200px;
+    top:150px;
+    position:absolute;
+    transition-property: width height background-color font-size top left;
+    transition-duration: 5000ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1000ms;
+}
+
+
+.parent1{
+    width:300px;
+    height:300px;
+    border:black;
+    border-width:1px;
+    border-style:solid;
+}
+
+.box1{
+    height:200px;
+    width:100px;
+    background-color: red;
+    font-size:30px;
+    left:0px;
+    top:0px;
+    position:absolute;
+    transition-property: width height background-color font-size top left;
+    transition-duration: 900ms;
+    transition-timing-function: ease-in-out;
+}
+
+.parent1:hover .box1{
+    /* transform: scale(0.5); */
+    /* transform: scale(2); */
+    /* transform: scaleX(5);
+    transform: scaleY(0.5);  */
+    /* transform: scale(5, 0.5); */
+    /* transform: scale3d(5, 0.5, 2); */
+    /* transform: skew(50deg); */
+    /* transform: skew(50deg, 20deg); */
+    /* transform: skewX(50deg); */
+    transform: skewY(50deg);
+    background-color: rgb(84, 194, 84);
+    color: yellow;
+    font-size: 20px;
+    left: 200px;
+    top:150px;
+    position:absolute;
+    transition-property: width height background-color font-size top left;
+    transition-duration: 1000ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 100ms;
+}

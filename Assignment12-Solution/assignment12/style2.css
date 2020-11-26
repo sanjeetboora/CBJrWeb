@@ -1,0 +1,68 @@
+.one{
+    text-align: center;
+    color: teal;
+    font-size: 50px;
+    text-shadow: -1px 1px 2px rgba(0,0,0,0.7),
+       	              -5px 5px 1px orange,
+       	              -6px 6px 2px rgba(0,0,0,0.7),
+       	              -10px 10px 1px red,
+       	              -11px 11px 2px rgba(0,0,0,0.7),
+       	              -15px 15px 1px purple,
+       	              -16px 16px 2px rgba(0,0,0,0.7);
+}
+#two{
+    font-size: 40px;
+    color: green;
+    text-decoration: line-through yellow;
+   
+}
+.three{
+    color: maroon;
+    font-size: larger;
+}
+.four{
+    color: teal;
+}
+#five{
+    color: purple;
+}
+#six{
+    color: orange;
+}
+/* body{
+    background-color: black;
+} */
+.seven{
+    text-align: center;
+    color: teal;
+    font-size: 50px;
+    text-shadow: -1px 1px 2px rgba(0,0,0,0.7),
+       	              -5px 5px 1px orange,
+       	              -6px 6px 2px rgba(0,0,0,0.7),
+       	              -10px 10px 1px red,
+       	              -11px 11px 2px rgba(0,0,0,0.7),
+       	              -15px 15px 1px purple,
+       	              -16px 16px 2px rgba(0,0,0,0.7);
+
+}
+p #a{
+    color: orangered;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px purple;
+}
+p #b{
+    color: purple;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px red;
+}
+p #c{
+    color: sienna;
+    font-size: 50px;
+}
+.ten{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+   
+}

@@ -1,0 +1,50 @@
+.superhero{
+    text-align: center;
+    color: white;
+    background-color: #EA7773;
+    font-size: 50px;
+    font-family: 'Grenze Gotisch', cursive;
+
+}
+.link{
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.spiderman h2{
+    font-size: 40px;
+    color: #EA425C;
+
+}
+.spiderman p{
+    letter-spacing: 4px;
+    text-indent: 100px;
+
+}
+.captainamerica h2{
+    text-align: right;
+    font-size: 50px;
+    color: #487EB0;
+    text-decoration: overline;
+}
+.captainamerica p{
+    text-align: right;
+    line-height: 30px;
+    word-spacing: 5px;
+
+}
+.ironman h2{
+    text-align: center;
+    color: yellow;
+    background-color: teal;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.ironman p{
+    text-decoration: line-through;
+}
+.ironman #second{
+    text-decoration: none;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
